@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DA32224170ABABD0315D94 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8EDAAD10726B3539709652 /* HistoryView.swift */; };
+		18AAFE4D4ECF36040A7F6B2C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 28DC96336E8B493E93225DC5 /* PrivacyInfo.xcprivacy */; };
+		19E8FD6D3739B95D6BF8613E /* MoodSyncWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56CD70FC59A2C75211C7C08 /* MoodSyncWidget.swift */; };
+		2D49EFE16DE30D4C1DBB78B9 /* CloudKitSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449F9F7FE4F91610A98A6EE /* CloudKitSync.swift */; };
+		30C217936359F981E95B9FE9 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36639472008F9F9313045E03 /* AppModel.swift */; };
+		359832CAC45D5E63821BF1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8541706BF387046116DE04 /* Assets.xcassets */; };
+		56B96A587AF778C59CD8963C /* MoodSyncCore in Frameworks */ = {isa = PBXBuildFile; productRef = 892A6CAD2CB87DCC825B47DE /* MoodSyncCore */; };
+		678340384BCA0784490FBA45 /* MoodSyncWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 634BCBF2DAD581D79B3961EC /* MoodSyncWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		801B922EEB792F70241D2B50 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED442999E061FEF399306AA7 /* CircleView.swift */; };
+		82DDE13F40A9FE9B6CE18223 /* MoodSyncCore in Frameworks */ = {isa = PBXBuildFile; productRef = 94243E92436F845F94BB9C86 /* MoodSyncCore */; };
+		9D3A2D562920E559BA6603DF /* MoodSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DDCABB0F1DA6AAB08FF22A /* MoodSyncApp.swift */; };
+		AEC99BD90631D17E1F0CAF95 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97F9A8FA51BF1D8FAD25CC /* OnboardingView.swift */; };
+		BAF906B7D732334E418154A7 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CB77A02495DC21D1F6164 /* Components.swift */; };
+		C2079B67524AAAAA742635C0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF46D485DCEF54704B465B /* PrivacyInfo.xcprivacy */; };
+		C884F0ABD44B2771593DF874 /* RelaySecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEF9993ADC0EAA061C2E2D /* RelaySecret.swift */; };
+		CCFFA7FF17E5B50DDBE2DD71 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E75C777F103C10B62FA7A /* NotificationScheduler.swift */; };
+		D2DDD4325B47C816E9DB1525 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A414487D79F32A9F09F34 /* SettingsView.swift */; };
+		D66153555C9929D7386D854B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3408097E10A35C8E5EEAE5D /* HomeView.swift */; };
+		E2000B295C301847755507CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D5132DBC487FA177002A11 /* Assets.xcassets */; };
+		EA34DB283DB05C632BC26AB3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC215882F966930497CE34 /* Theme.swift */; };
+		F319B92F16F8F80733028A24 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BEB9DEFA3F7D605D8E016 /* RootView.swift */; };
+		FA6D91D1FDBF84F799B4137A /* MoodComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEC57EEC5BAF889ADEB226 /* MoodComposerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06C7FCA546EC9DC7C3EF6B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B61A8964E6E1F94C7BF9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB856BB4CADB3B76002C7C7;
+			remoteInfo = MoodSyncWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA238AAE91951899B36D275F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				678340384BCA0784490FBA45 /* MoodSyncWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		009A5109880AA77C447E4A95 /* MoodSync.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MoodSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1449F9F7FE4F91610A98A6EE /* CloudKitSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSync.swift; sourceTree = "<group>"; };
+		18B4A81DD46D3231D346F0D8 /* Widget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Widget.xcconfig; sourceTree = "<group>"; };
+		1AC593A2FE43961C1874D0D0 /* MoodSyncPaid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodSyncPaid.entitlements; sourceTree = "<group>"; };
+		1F83E77A738DA23A52ABAC1F /* MoodSyncWidgetAppGroup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodSyncWidgetAppGroup.entitlements; sourceTree = "<group>"; };
+		24D5132DBC487FA177002A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28DC96336E8B493E93225DC5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2CDF46D485DCEF54704B465B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		36639472008F9F9313045E03 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		4C3CB77A02495DC21D1F6164 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		634BCBF2DAD581D79B3961EC /* MoodSyncWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = MoodSyncWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DC215882F966930497CE34 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6A690A5A867DA80A3C6DC7E1 /* MoodSyncCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MoodSyncCore; path = Packages/MoodSyncCore; sourceTree = SOURCE_ROOT; };
+		6A8EDAAD10726B3539709652 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7ABEC57EEC5BAF889ADEB226 /* MoodComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodComposerView.swift; sourceTree = "<group>"; };
+		8B8C6BDE50D6A808EA98C28F /* MoodSyncAppGroup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodSyncAppGroup.entitlements; sourceTree = "<group>"; };
+		934E75C777F103C10B62FA7A /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		A40BEB9DEFA3F7D605D8E016 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AE97F9A8FA51BF1D8FAD25CC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B3408097E10A35C8E5EEAE5D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B56CD70FC59A2C75211C7C08 /* MoodSyncWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSyncWidget.swift; sourceTree = "<group>"; };
+		BDFEF9993ADC0EAA061C2E2D /* RelaySecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaySecret.swift; sourceTree = "<group>"; };
+		D0639985203CDC2C6448F4D0 /* MoodSyncWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodSyncWidget.entitlements; sourceTree = "<group>"; };
+		D5B5009FF718D8791CF00662 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		E552FA1725A21C50708F0FAF /* MoodSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodSync.entitlements; sourceTree = "<group>"; };
+		E8DDCABB0F1DA6AAB08FF22A /* MoodSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSyncApp.swift; sourceTree = "<group>"; };
+		EA1A414487D79F32A9F09F34 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EA8541706BF387046116DE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED442999E061FEF399306AA7 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73964A778779002F05AA360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B96A587AF778C59CD8963C /* MoodSyncCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB554D9BDC563A5FCB737E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DDE13F40A9FE9B6CE18223 /* MoodSyncCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C124FFBD33B2029165B4F10 /* MoodSync */ = {
+			isa = PBXGroup;
+			children = (
+				A40C536F5CBA25080E3BBA85 /* Model */,
+				DDD4B36E63470C3AF936FCAC /* Services */,
+				6AF8DBBD06071683BDEC7F58 /* Views */,
+				24D5132DBC487FA177002A11 /* Assets.xcassets */,
+				E552FA1725A21C50708F0FAF /* MoodSync.entitlements */,
+				E8DDCABB0F1DA6AAB08FF22A /* MoodSyncApp.swift */,
+				8B8C6BDE50D6A808EA98C28F /* MoodSyncAppGroup.entitlements */,
+				1AC593A2FE43961C1874D0D0 /* MoodSyncPaid.entitlements */,
+				28DC96336E8B493E93225DC5 /* PrivacyInfo.xcprivacy */,
+				68DC215882F966930497CE34 /* Theme.swift */,
+			);
+			path = MoodSync;
+			sourceTree = "<group>";
+		};
+		258F4CCB0A8D1B11094139CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009A5109880AA77C447E4A95 /* MoodSync.app */,
+				634BCBF2DAD581D79B3961EC /* MoodSyncWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416C0F59B14AF60F2459AA87 = {
+			isa = PBXGroup;
+			children = (
+				7C713F817B170B6AF8CEBC73 /* Config */,
+				1C124FFBD33B2029165B4F10 /* MoodSync */,
+				5C66001A6B796D71FAF594A6 /* MoodSyncWidget */,
+				9E5656D9F0E371B2DCAB9154 /* Packages */,
+				258F4CCB0A8D1B11094139CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C66001A6B796D71FAF594A6 /* MoodSyncWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EA8541706BF387046116DE04 /* Assets.xcassets */,
+				D0639985203CDC2C6448F4D0 /* MoodSyncWidget.entitlements */,
+				B56CD70FC59A2C75211C7C08 /* MoodSyncWidget.swift */,
+				1F83E77A738DA23A52ABAC1F /* MoodSyncWidgetAppGroup.entitlements */,
+				2CDF46D485DCEF54704B465B /* PrivacyInfo.xcprivacy */,
+			);
+			path = MoodSyncWidget;
+			sourceTree = "<group>";
+		};
+		6AF8DBBD06071683BDEC7F58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED442999E061FEF399306AA7 /* CircleView.swift */,
+				4C3CB77A02495DC21D1F6164 /* Components.swift */,
+				6A8EDAAD10726B3539709652 /* HistoryView.swift */,
+				B3408097E10A35C8E5EEAE5D /* HomeView.swift */,
+				7ABEC57EEC5BAF889ADEB226 /* MoodComposerView.swift */,
+				AE97F9A8FA51BF1D8FAD25CC /* OnboardingView.swift */,
+				A40BEB9DEFA3F7D605D8E016 /* RootView.swift */,
+				EA1A414487D79F32A9F09F34 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C713F817B170B6AF8CEBC73 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D5B5009FF718D8791CF00662 /* App.xcconfig */,
+				18B4A81DD46D3231D346F0D8 /* Widget.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9E5656D9F0E371B2DCAB9154 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				6A690A5A867DA80A3C6DC7E1 /* MoodSyncCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		A40C536F5CBA25080E3BBA85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36639472008F9F9313045E03 /* AppModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDD4B36E63470C3AF936FCAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1449F9F7FE4F91610A98A6EE /* CloudKitSync.swift */,
+				934E75C777F103C10B62FA7A /* NotificationScheduler.swift */,
+				BDFEF9993ADC0EAA061C2E2D /* RelaySecret.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB856BB4CADB3B76002C7C7 /* MoodSyncWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DAC30930BEAEC12E667371 /* Build configuration list for PBXNativeTarget "MoodSyncWidget" */;
+			buildPhases = (
+				1193D01D25029DB86D3EC552 /* Sources */,
+				EC28BB5851D79A557A9FA539 /* Resources */,
+				ABB554D9BDC563A5FCB737E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodSyncWidget;
+			packageProductDependencies = (
+				94243E92436F845F94BB9C86 /* MoodSyncCore */,
+			);
+			productName = MoodSyncWidget;
+			productReference = 634BCBF2DAD581D79B3961EC /* MoodSyncWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9B118BDFEB0F56693C77DBDF /* MoodSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3CAB20EBEDD97405AD88F6 /* Build configuration list for PBXNativeTarget "MoodSync" */;
+			buildPhases = (
+				11D787B66D9CDFC54DA6FB76 /* Sources */,
+				578FBA6D8217F9E571F2E568 /* Resources */,
+				A73964A778779002F05AA360 /* Frameworks */,
+				DA238AAE91951899B36D275F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07ED6ACD7CD5F858BA86C037 /* PBXTargetDependency */,
+			);
+			name = MoodSync;
+			packageProductDependencies = (
+				892A6CAD2CB87DCC825B47DE /* MoodSyncCore */,
+			);
+			productName = MoodSync;
+			productReference = 009A5109880AA77C447E4A95 /* MoodSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B61A8964E6E1F94C7BF9EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7FB856BB4CADB3B76002C7C7 = {
+						ProvisioningStyle = Automatic;
+					};
+					9B118BDFEB0F56693C77DBDF = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 020E4382460BA1213629C8F6 /* Build configuration list for PBXProject "MoodSync" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 416C0F59B14AF60F2459AA87;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3DA8F984630C2CD1391A5A3C /* XCLocalSwiftPackageReference "Packages/MoodSyncCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 258F4CCB0A8D1B11094139CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B118BDFEB0F56693C77DBDF /* MoodSync */,
+				7FB856BB4CADB3B76002C7C7 /* MoodSyncWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578FBA6D8217F9E571F2E568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2000B295C301847755507CC /* Assets.xcassets in Resources */,
+				18AAFE4D4ECF36040A7F6B2C /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC28BB5851D79A557A9FA539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359832CAC45D5E63821BF1CE /* Assets.xcassets in Resources */,
+				C2079B67524AAAAA742635C0 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1193D01D25029DB86D3EC552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E8FD6D3739B95D6BF8613E /* MoodSyncWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D787B66D9CDFC54DA6FB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C217936359F981E95B9FE9 /* AppModel.swift in Sources */,
+				801B922EEB792F70241D2B50 /* CircleView.swift in Sources */,
+				2D49EFE16DE30D4C1DBB78B9 /* CloudKitSync.swift in Sources */,
+				BAF906B7D732334E418154A7 /* Components.swift in Sources */,
+				03DA32224170ABABD0315D94 /* HistoryView.swift in Sources */,
+				D66153555C9929D7386D854B /* HomeView.swift in Sources */,
+				FA6D91D1FDBF84F799B4137A /* MoodComposerView.swift in Sources */,
+				9D3A2D562920E559BA6603DF /* MoodSyncApp.swift in Sources */,
+				CCFFA7FF17E5B50DDBE2DD71 /* NotificationScheduler.swift in Sources */,
+				AEC99BD90631D17E1F0CAF95 /* OnboardingView.swift in Sources */,
+				C884F0ABD44B2771593DF874 /* RelaySecret.swift in Sources */,
+				F319B92F16F8F80733028A24 /* RootView.swift in Sources */,
+				D2DDD4325B47C816E9DB1525 /* SettingsView.swift in Sources */,
+				EA34DB283DB05C632BC26AB3 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07ED6ACD7CD5F858BA86C037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB856BB4CADB3B76002C7C7 /* MoodSyncWidget */;
+			targetProxy = 06C7FCA546EC9DC7C3EF6B66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10CDCE873715FDBD7ABE8DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		34029B4B125F9488522C89C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B5009FF718D8791CF00662 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mood Sync";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MoodSync;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		67BFA7830299B9F9C710E2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B4A81DD46D3231D346F0D8 /* Widget.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodSyncWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = MoodSyncWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		721C9D0D37545066E463A783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		984D70FA7DEE5FE1CB54D9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B5009FF718D8791CF00662 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mood Sync";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MoodSync;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9CAF5B91FFE39451FF75A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B4A81DD46D3231D346F0D8 /* Widget.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodSyncWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = MoodSyncWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020E4382460BA1213629C8F6 /* Build configuration list for PBXProject "MoodSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CDCE873715FDBD7ABE8DD3 /* Debug */,
+				721C9D0D37545066E463A783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3CAB20EBEDD97405AD88F6 /* Build configuration list for PBXNativeTarget "MoodSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34029B4B125F9488522C89C1 /* Debug */,
+				984D70FA7DEE5FE1CB54D9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DAC30930BEAEC12E667371 /* Build configuration list for PBXNativeTarget "MoodSyncWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BFA7830299B9F9C710E2ED /* Debug */,
+				E9CAF5B91FFE39451FF75A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3DA8F984630C2CD1391A5A3C /* XCLocalSwiftPackageReference "Packages/MoodSyncCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/MoodSyncCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		892A6CAD2CB87DCC825B47DE /* MoodSyncCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MoodSyncCore;
+		};
+		94243E92436F845F94BB9C86 /* MoodSyncCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MoodSyncCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9B61A8964E6E1F94C7BF9EC /* Project object */;
+}
