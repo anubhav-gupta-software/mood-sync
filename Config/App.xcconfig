@@ -1,0 +1,23 @@
+// Signing for the Mood Sync app.
+//
+// The default entitlements file is empty on purpose. A free personal Apple ID
+// can install the app on your own iPhone. Personal teams cannot use App Groups
+// or iCloud, and Xcode refuses to sign the app if those capabilities are on.
+//
+// The Home Screen and Lock Screen widgets still install. They show a setup
+// note until the shared App Group is turned on.
+//
+// After you enroll in the Apple Developer Program, pick one line:
+//
+//   Live widgets:
+//     CODE_SIGN_ENTITLEMENTS = MoodSync/MoodSyncAppGroup.entitlements
+//
+//   Live widgets and CloudKit:
+//     CODE_SIGN_ENTITLEMENTS = MoodSync/MoodSyncPaid.entitlements
+//
+// Then point Config/Widget.xcconfig at the widget App Group file and build again.
+// If the bundle id is already taken, change it here and keep the widget id
+// in Config/Widget.xcconfig as this id plus ".widget".
+
+CODE_SIGN_ENTITLEMENTS = MoodSync/MoodSync.entitlements
+PRODUCT_BUNDLE_IDENTIFIER = app.moodsync.ios

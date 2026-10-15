@@ -1,0 +1,10 @@
+// Signing for the Mood Sync widget extension.
+//
+// Keep this bundle id as the app bundle id plus ".widget".
+// Leave the entitlements empty to install with a free Apple ID.
+//
+// Paid Apple Developer Program, so the widget can read the circle:
+//   CODE_SIGN_ENTITLEMENTS = MoodSyncWidget/MoodSyncWidgetAppGroup.entitlements
+
+CODE_SIGN_ENTITLEMENTS = MoodSyncWidget/MoodSyncWidget.entitlements
+PRODUCT_BUNDLE_IDENTIFIER = app.moodsync.ios.widget
