@@ -1,0 +1,27 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/MoodSyncCore/.build/
+
+# Secrets and local config
+GoogleService-Info.plist
+*.mobileprovision
+*.p12
+.env
+.env.*
